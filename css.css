@@ -48,4 +48,26 @@
     padding: 10px;
     text-align: center;
   }
+  section#productos {
+    max-width: 800px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .producto {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+  }
+  
+  .producto h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
   
